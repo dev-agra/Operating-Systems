@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\C_OS_Page_Replacement.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\C_OS_Page_Replacement.dir/objects.a @CMakeFiles\C_OS_Page_Replacement.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\C_OS_Page_Replacement.dir/objects.a -Wl,--no-whole-archive -o C_OS_Page_Replacement.exe -Wl,--out-implib,libC_OS_Page_Replacement.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\C_OS_Page_Replacement.dir\linklibs.rsp
